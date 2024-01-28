@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.header{
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header .logo{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: orange;
+    padding: 20px;
+}
+.header .menu{
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    background-color: purple;
+}
+.nav__box{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(85, 99, 184);
+}
+.box__modelcaja, .box__modelcaja2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.box__modelcaja{
+    width: 60%;
+    background-color: rgb(167, 82, 237);
+}
+.box__modelcaja2{
+    width: 30%;
+    background-color: brown;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: blue;
+}
+.section__grid{
+    width: 100%;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+    height: 400px;
+}
+.grid__items{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: orange;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+.footer__cajabox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: 10px;
+    background-color: greenyellow;
+}
